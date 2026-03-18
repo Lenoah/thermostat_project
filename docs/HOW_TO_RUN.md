@@ -1,7 +1,8 @@
-# Procédure d'exécution - Séance 2
+# Procédure d'exécution - Séance 3
 
-1. Ouvrez Scilab et placez-vous dans `thermostat_project`.
-2. Lancez la simulation avec : exec("run_demo.sce", -1)
-3. Le script charge automatiquement :
-   - src/plant.sci (Modèle physique)
-   - src/controller.sci (Thermostat à hystérésis)
+1. Ouvrez Scilab.
+2. Déplacez-vous dans le dossier racine `thermostat_project`.
+3. Lancez la simulation complète avec la commande :
+   exec("run_demo.sce", -1)
+
+Note : Le script charge automatiquement les modèles physiques (plant), le contrôleur (thermostat), le simulateur de capteur (sensor) et le filtre numérique (filter).
